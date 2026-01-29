@@ -1,0 +1,38 @@
+@import "tailwindcss";
+
+/* =========================
+   Thème global
+========================= */
+@theme {
+    --font-poppins: "Poppins", sans-serif;
+
+    /* Couleurs du dégradé */
+    --bg-gradient-from: #ffffff;
+    --bg-gradient-via: #fbeee6;
+    --bg-gradient-to: #ffffff;
+}
+
+/* =========================
+   Styles globaux
+========================= */
+body {
+    @apply min-h-screen text-black text-sm font-poppins antialiased;
+    background: linear-gradient(
+        135deg,
+        var(--bg-gradient-from),
+        var(--bg-gradient-via),
+        var(--bg-gradient-to)
+    );
+}
+
+/* =========================
+   Boutons
+========================= */
+button {
+    @apply cursor-pointer;
+}
+
+.react-datepicker-wrapper,
+.react-datepicker__input-container {
+    width: 100%;
+}
