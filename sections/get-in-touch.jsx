@@ -158,7 +158,7 @@ export default function GetInTouch() {
                     viewport={{ once: true }}
                     transition={{ type: "spring", stiffness: 280, damping: 70, mass: 1 }}
                 >
-                    <label className="font-medium text-slate-600">Date et heure du rendez-vous</label>
+                    <label className="font-medium text-slate-600">Date et heure</label>
                     <div className="mt-2 w-full">
                         <DatePicker
                             selected={formData.date}
