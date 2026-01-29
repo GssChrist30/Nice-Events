@@ -18,7 +18,7 @@ export default function SubscribeNewsletter() {
                 <input
                     type="text"
                     className="bg-transparent outline-none rounded-full px-4 h-full flex-1 placeholder:text-slate-400"
-                    placeholder="Entrez votre adresse email"
+                    placeholder="Adresse email"
                 />
                 <button className="bg-[#728484] text-white rounded-full h-11 mr-1 px-10 flex items-center justify-center hover:bg-[#b6c0c0]/90 active:scale-95 transition">
                     Souscrire
