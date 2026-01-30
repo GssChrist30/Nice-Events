@@ -15,7 +15,6 @@ export default function Page() {
             <HeroSection />
             <OurLatestCreation />
             <AboutOurApps />
-            <OurTestimonials />
             <TrustedCompanies />
             <GetInTouch />
             <SubscribeNewsletter />

@@ -97,11 +97,11 @@ export default function GetInTouch() {
                     viewport={{ once: true }}
                     transition={{ type: "spring", stiffness: 320, damping: 70, mass: 1 }}
                 >
-                    <label className="font-medium text-slate-600">Nom</label>
+                    <label className="font-medium text-slate-800">Nom et prénom(s)</label>
                     <input
                         name="name"
                         type="text"
-                        placeholder="Entrez votre nom"
+                        placeholder="Entrez votre nom et prénom(s)"
                         value={formData.name}
                         onChange={handleInputChange}
                         className="w-full mt-2 p-3 outline-none border border-[#728484] rounded-lg transition focus:ring-2 focus:ring-[#728484] focus:border-[#728484] hover:border-[#728484] hover:bg-[#728484]/10"
